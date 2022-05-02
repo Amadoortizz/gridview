@@ -14,17 +14,17 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.green,
         ),
-        home: MyHomePage());
+        home:   Paginainicial());
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key? key}) : super(key: key);
+class  Paginainicial extends StatefulWidget {
+  Paginainicial({Key? key}) : super(key: key);
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _PaginainicialState createState() => _PaginainicialState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _ PaginainicialState extends State< Paginainicial> {
   List<String> images = [
     "assets/images/actanac.jpg",
     "assets/images/defuncion.jpg",
